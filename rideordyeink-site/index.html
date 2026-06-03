@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ride or Dye Ink | Custom UV Printing, Stickers & Tumblers</title>
+  <meta name="description" content="Ride or Dye Ink creates custom UV printing, stickers, decals, tumblers, and personalized products for businesses, schools, teams, and events." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#top">Ride or Dye <span>Ink</span></a>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#quote">Quote</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Custom UV Printing • Stickers • Decals • Tumblers</p>
+          <h1>Bring your ideas to life in bold, durable print.</h1>
+          <p class="hero-text">Ride or Dye Ink creates custom stickers, decals, tumbler wraps, 3D ink stickers, and UV printed products for businesses, schools, teams, events, and personal projects.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#quote">Get a Quote</a>
+            <a class="btn secondary" href="https://www.instagram.com/rideordyeink" target="_blank" rel="noreferrer">View Instagram</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Ride or Dye Ink product highlights">
+          <div class="sticker sticker-one">UV PRINTING</div>
+          <div class="sticker sticker-two">CUSTOM STICKERS</div>
+          <div class="sticker sticker-three">TUMBLERS</div>
+          <div class="print-sample">
+            <span>WOOD</span>
+            <span>GLASS</span>
+            <span>ACRYLIC</span>
+            <span>METAL</span>
+            <span>LEATHER</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What We Make</p>
+          <h2>Custom printing for almost anything.</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>UV Printing</h3>
+            <p>Vibrant, durable printing on acrylic, wood, glass, metal, leather, cotton, and more.</p>
+          </article>
+          <article class="card">
+            <h3>Stickers & Decals</h3>
+            <p>Custom vinyl stickers, decals, school spirit designs, business branding, and event graphics.</p>
+          </article>
+          <article class="card">
+            <h3>3D Ink Stickers</h3>
+            <p>Raised ink designs that add texture, shine, and a premium look to your custom pieces.</p>
+          </article>
+          <article class="card">
+            <h3>Tumblers</h3>
+            <p>Custom tumbler wraps, decals, names, team themes, business designs, and gifts.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Gallery</p>
+          <h2>Featured work goes here.</h2>
+          <p>Add photos of your stickers, tumblers, school designs, baseball cards, decals, and UV printed products.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">Stickers</div>
+          <div class="gallery-item">Tumblers</div>
+          <div class="gallery-item">Decals</div>
+          <div class="gallery-item">School Spirit</div>
+          <div class="gallery-item">Business Prints</div>
+          <div class="gallery-item">Custom Orders</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quote" class="section quote-section">
+      <div class="container quote-grid">
+        <div>
+          <p class="eyebrow">Start an Order</p>
+          <h2>Request a custom quote.</h2>
+          <p>Tell us what you want made, the size, quantity, material, and any artwork details. We’ll follow up with pricing and next steps.</p>
+          <p class="note">Want artwork uploads? Replace this button with a Google Form link that includes file upload.</p>
+        </div>
+        <form class="quote-form" action="mailto:rideordyeink@gmail.com" method="post" enctype="text/plain">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" name="email" placeholder="you@email.com" required></label>
+          <label>Product Type<input type="text" name="product" placeholder="Stickers, tumbler, decal, UV print..."></label>
+          <label>Quantity<input type="text" name="quantity" placeholder="How many?"></label>
+          <label>Project Details<textarea name="details" rows="5" placeholder="Size, colors, material, deadline, and notes"></textarea></label>
+          <button class="btn primary" type="submit">Send Quote Request</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s make something custom.</h2>
+        <p>Email: <a href="mailto:rideordyeink@gmail.com">rideordyeink@gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/rideordyeink" target="_blank" rel="noreferrer">@rideordyeink</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Ride or Dye Ink. All rights reserved.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
